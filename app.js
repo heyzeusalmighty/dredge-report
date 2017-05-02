@@ -4,6 +4,11 @@ const cheerio = require('cheerio');
 const chalk = require('chalk');
 const fs = require('fs');
 
+
+// check this one out please
+// https://www.ncdc.noaa.gov/cdo-web/webservices/v2
+
+
 // const tasSite = 'http://thetvdb.com/?tab=seasonall&id=76168';
 const endpoint = 'https://api.weather.gov/';
 const otherPoint = 'http://forecast.weather.gov/MapClick.php?lat=30.133486&lon=-97.361327&FcstType=json';
